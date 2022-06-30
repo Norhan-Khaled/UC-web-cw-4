@@ -6,7 +6,7 @@ console.log("%c" + grade, "color: purple");
 
 if (grade >= 90 && grade <= 100) {
   console.log("لقد حصلت على امتياز 🥳");
-} else if (grade >= 80 && grade <= 89) {
+} else if (grade >= 80 || grade <= 89) {
   console.log("لقد حصلت على جيد جداً🤩");
 } else if (grade >= 70 && grade <= 79) {
   console.log("لقد حصلت على جيد🙂");
